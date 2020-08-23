@@ -26,3 +26,5 @@ let baz = {
 let fred: Grault = new Grault(baz, [1,2,3])
 
 console.log(fred.getGarply())
+
+document.body.innerHTML = fred.getGarply()
