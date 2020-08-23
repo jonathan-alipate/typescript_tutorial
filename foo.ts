@@ -1,5 +1,5 @@
 class Grault {
-    private garply: string
+    garply: string
     constructor(quux: Quux, waldo: number[]){
         this.garply = quux.quuz + " " + quux.corge + " " + waldo
     }
