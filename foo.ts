@@ -1,13 +1,13 @@
-interface Quux {
+type Quux = {
     quuz: string
     corge: number
 }
 
 function foo(bar: Quux) {
-    return "Hello, " + bar;
+    return "Hello, " + bar.quuz + bar.corge;
 }
 
-let baz = {
+let baz = <Quux>{
     quuz: "ABC",
     corge: 5
 }
